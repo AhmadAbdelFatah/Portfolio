@@ -4,7 +4,7 @@ changeNames.children[5].firstElementChild.textContent = 'Mongo DB';
 
 // ---
 const newSkill = `
-<li data-name="HTML" class="skills__column">
+<li data-name="TypeScript" class="skills__column">
   <h2 class="skills__title">TypeScript</h2>
   <span class="skills__years">2 years</span>
 </li>

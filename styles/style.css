@@ -337,6 +337,18 @@ body,
   grid-template-columns: repeat(3, 1fr);
   row-gap: 5rem;
 }
+.skills__column {
+  position: relative;
+}
+.underline::after {
+  content: "";
+  height: 0.6rem;
+  width: 60%;
+  background: var(--color-text);
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
 
 .skills__item {
   transition: var(--transition-timing);
@@ -386,6 +398,9 @@ body,
 }
 .projects__description {
   line-height: 1.5;
+}
+.project__icons {
+  width: 15px;
 }
 .projects__link {
   color: var(--color-darker-blue);
