@@ -115,7 +115,17 @@
 
       <section id="skills" class="section skills section--with-bg">
         <h2 class="h2-heading">Skills</h2>
-
+        <div class="skills__filters">
+          <button
+            class="skills__button skills__button--isActive"
+            data-type="all"
+          >
+            All
+          </button>
+          <button class="skills__button" data-type="frontend">Frontend</button>
+          <button class="skills__button" data-type="backend">Backend</button>
+        </div>
+        <!-- 
         <ul class="skills__list">
           <li class="skills__column" data-name="HTML">
             <h2 class="skills__title">HTML</h2>
@@ -141,7 +151,7 @@
             <h2 class="skills__title">React testing library</h2>
             <span class="skills__years">1 year</span>
           </li>
-        </ul>
+        </ul> -->
       </section>
 
       <section id="media" class="section media">
@@ -360,6 +370,6 @@
 
       <footer class="footer">© 2022 by Ahmed AbdelFattah</footer>
     </div>
-    <script src="/script.js"></script>
+    <script src="/scripts/challenge-2.js"></script>
   </body>
 </html>

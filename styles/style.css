@@ -373,6 +373,29 @@ body,
   text-shadow: 0 0 2px var(--color-green);
 }
 
+.skills__filters {
+  grid-column: 1/-1;
+  margin-top: -8rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.skills__button {
+  border: 1px solid var(--color-text);
+  border-radius: 0.4rem;
+  padding: 0.2rem 1rem;
+}
+.skills__button--isActive {
+  background-color: var(--color-text);
+  color: var(--color-background);
+}
+.skills__list.frontend li:not([data-type="frontend"]) {
+  display: none;
+}
+.skills__list.backend li:not([data-type="backend"]) {
+  display: none;
+}
+
 .media {
   align-items: center;
   justify-content: center;
